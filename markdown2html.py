@@ -55,3 +55,4 @@ if __name__ == '__main__':
         sys.exit(1)
     convert_markdown_to_html(input_filename, output_filename)
     sys.exit(0)
+    
