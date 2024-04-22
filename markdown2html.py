@@ -19,7 +19,7 @@ def convert_markdown_to_html(input_file, output_file):
         return 1
 
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
         print("Usage: ./markdown2html.py <input_file> <output_file>", file=sys.stderr)
         sys.exit(1)
 
